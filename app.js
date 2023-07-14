@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require('mongoose');
 
-const homeStartingContent = "Welcome to the home page of Daily Journal. Here you can find articles on different topic of your interests.";
+const homeStartingContent = "Welcome to the home page of our Daily Journal. Here you can find seevral articles on different topic of your interests.";
 const aboutContent = "Daily Journal is a blog service that allows you to compose your posts freely and safely.Here you can find articles on different topic written by people from different parts of the world.";
 
 const app = express();
